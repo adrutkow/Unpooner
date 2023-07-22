@@ -12,7 +12,7 @@ def change_image():
     # Middle part of the unwanted profile picture's link
     src_value = "284037898603462666/16d540c2044b8f53ceba3317b4e7efd4"
 
-    # Wait until an instant of the pfp is found
+    # Wait until an instance of the pfp is found
     wait = WebDriverWait(driver, 9999)
     wait.until(EC.presence_of_element_located((By.XPATH, f"//img[contains(@src, '{src_value}')]")))
 
