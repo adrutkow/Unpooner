@@ -1,6 +1,6 @@
 # Unpooner
-Replaces a user's profile picture on discord into another image.
+Replaces a user's profile picture on discord with another image.
 
-Made for chrome. All instances of chrome have to be closed before launching the script for it to work.
-Only works for the web version on chrome, not on the app or other browsers.
-It assumes you have Chrome downloaded on the C: disk with default settings.
+Only works for the web version of discord, not the app.
+Made only for Chrome. All other instances of Chrome have to be closed before launching the script for it to work.
+It assumes you have Chrome downloaded on your C: disk with default settings.
